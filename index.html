@@ -7,11 +7,13 @@
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>	
 	<link rel="stylesheet" href="fonts/font-face.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="rounded"></div>
+	<div class="cursor"></div>
 	<header class="header" id="header">
 		<div class="container">
 			<div class="row">
@@ -19,6 +21,10 @@
 					<img src="img/logo.svg" alt="">
 				</a>
 				<ul class="nav main_menu">
+					<li class="mobile_phones">
+						<a href="tel:+380985674576">+38 098 567 45 76</a>
+						<a href="tel:+380665684575">+38 066 568 45 75</a>
+					</li>
 					<li><a href="#">hit</a></li>
 					<li><a href="#">Продажа</a></li>
 					<li><a href="#">Отзывы</a></li>
@@ -47,106 +53,109 @@
 						<p class="pre__title">hit</p>
 						<h1>лучшие предложения <br> по аренде</h1>
 					</div>
-					<div class="card_slider__wrapper">
-						<div class="card_slider">
-							<div class="card card_big">
-								<div class="nav">
-									<span class="card_price">500 ₴ / сутки</span>
-									<span class="card_type">PREMIUM</span>
+					<div class="col col_slider">
+						<div class="card_slider__wrapper swiper-container">
+							<div class="card_slider swiper-wrapper">
+								<div class="card card_big swiper-slide">
+									<div class="nav">
+										<span class="card_price">500 ₴ / сутки</span>
+										<span class="card_type">PREMIUM</span>
+									</div>
+									<div class="nav">
+										<span class="card_rooms">1 ком. <br>квартира</span>
+										<span class="card_adress">пр-т металлургов, 34 / 21</span>
+									</div>
+									<div class="card_image__box">
+										<img src="img/item_big1.jpg" alt="">
+										<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+									</div>
 								</div>
-								<div class="nav">
-									<span class="card_rooms">1 ком. <br>квартира</span>
-									<span class="card_adress">пр-т металлургов, 34 / 21</span>
+								<div class="card card_big swiper-slide">
+									<div class="nav">
+										<span class="card_price">500 ₴ / сутки</span>
+										<span class="card_type">PREMIUM</span>
+									</div>
+									<div class="nav">
+										<span class="card_rooms">1 ком. <br>квартира</span>
+										<span class="card_adress">пр-т металлургов, 34 / 21</span>
+									</div>
+									<div class="card_image__box">
+										<img src="img/item_big1.jpg" alt="">
+										<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+									</div>
 								</div>
-								<div class="card_image__box">
-									<img src="img/item_big1.jpg" alt="">
-									<a href="#">подробнее</a>
+								<div class="card card_big swiper-slide">
+									<div class="nav">
+										<span class="card_price">500 ₴ / сутки</span>
+										<span class="card_type">PREMIUM</span>
+									</div>
+									<div class="nav">
+										<span class="card_rooms">1 ком. <br>квартира</span>
+										<span class="card_adress">пр-т металлургов, 34 / 21</span>
+									</div>
+									<div class="card_image__box">
+										<img src="img/item_big1.jpg" alt="">
+										<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+									</div>
+								</div>
+								<div class="card card_big swiper-slide">
+									<div class="nav">
+										<span class="card_price">500 ₴ / сутки</span>
+										<span class="card_type">PREMIUM</span>
+									</div>
+									<div class="nav">
+										<span class="card_rooms">1 ком. <br>квартира</span>
+										<span class="card_adress">пр-т металлургов, 34 / 21</span>
+									</div>
+									<div class="card_image__box">
+										<img src="img/item_big1.jpg" alt="">
+										<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+									</div>
+								</div>
+								<div class="card card_big swiper-slide">
+									<div class="nav">
+										<span class="card_price">500 ₴ / сутки</span>
+										<span class="card_type">PREMIUM</span>
+									</div>
+									<div class="nav">
+										<span class="card_rooms">1 ком. <br>квартира</span>
+										<span class="card_adress">пр-т металлургов, 34 / 21</span>
+									</div>
+									<div class="card_image__box">
+										<img src="img/item_big1.jpg" alt="">
+										<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+									</div>
+								</div>
+								<div class="card card_big swiper-slide">
+									<div class="nav">
+										<span class="card_price">500 ₴ / сутки</span>
+										<span class="card_type">PREMIUM</span>
+									</div>
+									<div class="nav">
+										<span class="card_rooms">1 ком. <br>квартира</span>
+										<span class="card_adress">пр-т металлургов, 34 / 21</span>
+									</div>
+									<div class="card_image__box">
+										<img src="img/item_big1.jpg" alt="">
+										<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+									</div>
+								</div>
+								<div class="card card_big swiper-slide">
+									<div class="nav">
+										<span class="card_price">500 ₴ / сутки</span>
+										<span class="card_type">PREMIUM</span>
+									</div>
+									<div class="nav">
+										<span class="card_rooms">1 ком. <br>квартира</span>
+										<span class="card_adress">пр-т металлургов, 34 / 21</span>
+									</div>
+									<div class="card_image__box">
+										<img src="img/item_big1.jpg" alt="">
+										<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+									</div>
 								</div>
 							</div>
-							<div class="card card_big">
-								<div class="nav">
-									<span class="card_price">500 ₴ / сутки</span>
-									<span class="card_type">PREMIUM</span>
-								</div>
-								<div class="nav">
-									<span class="card_rooms">1 ком. <br>квартира</span>
-									<span class="card_adress">пр-т металлургов, 34 / 21</span>
-								</div>
-								<div class="card_image__box">
-									<img src="img/item_big1.jpg" alt="">
-									<a href="#">подробнее</a>
-								</div>
-							</div>
-							<div class="card card_big">
-								<div class="nav">
-									<span class="card_price">500 ₴ / сутки</span>
-									<span class="card_type">PREMIUM</span>
-								</div>
-								<div class="nav">
-									<span class="card_rooms">1 ком. <br>квартира</span>
-									<span class="card_adress">пр-т металлургов, 34 / 21</span>
-								</div>
-								<div class="card_image__box">
-									<img src="img/item_big1.jpg" alt="">
-									<a href="#">подробнее</a>
-								</div>
-							</div>
-							<div class="card card_big">
-								<div class="nav">
-									<span class="card_price">500 ₴ / сутки</span>
-									<span class="card_type">PREMIUM</span>
-								</div>
-								<div class="nav">
-									<span class="card_rooms">1 ком. <br>квартира</span>
-									<span class="card_adress">пр-т металлургов, 34 / 21</span>
-								</div>
-								<div class="card_image__box">
-									<img src="img/item_big1.jpg" alt="">
-									<a href="#">подробнее</a>
-								</div>
-							</div>
-							<div class="card card_big">
-								<div class="nav">
-									<span class="card_price">500 ₴ / сутки</span>
-									<span class="card_type">PREMIUM</span>
-								</div>
-								<div class="nav">
-									<span class="card_rooms">1 ком. <br>квартира</span>
-									<span class="card_adress">пр-т металлургов, 34 / 21</span>
-								</div>
-								<div class="card_image__box">
-									<img src="img/item_big1.jpg" alt="">
-									<a href="#">подробнее</a>
-								</div>
-							</div>
-							<div class="card card_big">
-								<div class="nav">
-									<span class="card_price">500 ₴ / сутки</span>
-									<span class="card_type">PREMIUM</span>
-								</div>
-								<div class="nav">
-									<span class="card_rooms">1 ком. <br>квартира</span>
-									<span class="card_adress">пр-т металлургов, 34 / 21</span>
-								</div>
-								<div class="card_image__box">
-									<img src="img/item_big1.jpg" alt="">
-									<a href="#">подробнее</a>
-								</div>
-							</div>
-							<div class="card card_big">
-								<div class="nav">
-									<span class="card_price">500 ₴ / сутки</span>
-									<span class="card_type">PREMIUM</span>
-								</div>
-								<div class="nav">
-									<span class="card_rooms">1 ком. <br>квартира</span>
-									<span class="card_adress">пр-т металлургов, 34 / 21</span>
-								</div>
-								<div class="card_image__box">
-									<img src="img/item_big1.jpg" alt="">
-									<a href="#">подробнее</a>
-								</div>
-							</div>
+							<div class="swiper-scrollbar"></div>
 						</div>
 					</div>
 				</div>
@@ -156,7 +165,6 @@
 
 		<!-- Catalog sect -->
 		<section class="catalog_section" id="catalog_section">
-			<div class="take_call">Заказать  звонок</div>
 			<div class="container">
 				<div class="tabs_row row">
 					<h2>Аренда</h2>
@@ -167,15 +175,129 @@
 						<li><a class="tab" href="#" data-tab="tab_4">3 - комнатные</a></li>
 						<li><a class="tab" href="#" data-tab="tab_5">дома</a></li>
 					</ul>
+					<div class="take_call">Заказать  звонок</div>
 				</div>
 				<!-- Tab 1 -->
 				<div class="tabs_content active" data-tab="tab_1">
+					<div class="rent_slider slider_01 swiper-container">
+						<div class="swiper-wrapper">
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card1.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card2.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card3.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card4.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card5.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card6.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card7.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card8.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card9.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+						</div>
+						<div class="rent_scrollbar scroll_01"></div>
+					</div>
 					<div class="row">
 						<div class="card">
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card1.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -187,7 +309,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card2.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -199,7 +321,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card3.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -213,7 +335,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card4.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -225,7 +347,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card5.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -237,7 +359,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card6.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -251,7 +373,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card7.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -263,7 +385,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card8.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -275,7 +397,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card9.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -289,12 +411,125 @@
 
 				<!-- Tab 2 -->
 				<div class="tabs_content" data-tab="tab_2">
+					<div class="rent_slider slider_02 swiper-container">
+						<div class="swiper-wrapper">
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card1.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card2.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card3.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card4.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card5.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card6.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card7.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card8.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card9.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+						</div>
+						<div class="rent_scrollbar scroll_02"></div>
+					</div>
 					<div class="row">
 						<div class="card">
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card1.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -306,7 +541,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card2.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -318,7 +553,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card3.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -332,7 +567,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card4.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -344,7 +579,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card5.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -356,7 +591,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card6.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -370,7 +605,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card7.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -382,7 +617,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card8.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -394,7 +629,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card9.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -408,12 +643,125 @@
 
 				<!-- Tab 3 -->
 				<div class="tabs_content" data-tab="tab_3">
+					<div class="rent_slider slider_03 swiper-container">
+						<div class="swiper-wrapper">
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card1.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card2.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card3.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card4.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card5.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card6.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card7.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card8.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card9.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+						</div>
+						<div class="rent_scrollbar scroll_03"></div>
+					</div>
 					<div class="row">
 						<div class="card">
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card1.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -425,7 +773,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card2.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -437,7 +785,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card3.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -451,7 +799,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card4.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -463,7 +811,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card5.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -475,7 +823,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card6.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -489,7 +837,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card7.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -501,7 +849,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card8.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -513,7 +861,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card9.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -527,12 +875,125 @@
 
 				<!-- Tab 4 -->
 				<div class="tabs_content" data-tab="tab_4">
+					<div class="rent_slider slider_04 swiper-container">
+						<div class="swiper-wrapper">
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card1.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card2.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card3.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card4.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card5.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card6.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card7.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card8.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card9.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+						</div>
+						<div class="rent_scrollbar scroll_04"></div>
+					</div>
 					<div class="row">
 						<div class="card">
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card1.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -544,7 +1005,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card2.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -556,7 +1017,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card3.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -570,7 +1031,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card4.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -582,7 +1043,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card5.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -594,7 +1055,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card6.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -608,7 +1069,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card7.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -620,7 +1081,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card8.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -632,7 +1093,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card9.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -646,12 +1107,125 @@
 
 				<!-- Tab 5 -->
 				<div class="tabs_content" data-tab="tab_5">
+					<div class="rent_slider slider_05 swiper-container">
+						<div class="swiper-wrapper">
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card1.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card2.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card3.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card4.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card5.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card6.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card7.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card8.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/card9.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+						</div>
+						<div class="rent_scrollbar scroll_05"></div>
+					</div>
 					<div class="row">
 						<div class="card">
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card1.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -663,7 +1237,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card2.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -675,7 +1249,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card3.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -689,7 +1263,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card4.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -701,7 +1275,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card5.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -713,7 +1287,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card6.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -727,7 +1301,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card7.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -739,7 +1313,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card8.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -751,7 +1325,7 @@
 							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
 							<div class="card_image__box">
 								<img src="img/card9.jpg" alt="">
-								<a href="#">подробнее</a>
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
 							</div>
 							<div class="nav card_nav">
 								<span class="card_price">15000 ₴ / сут.</span>
@@ -772,22 +1346,1935 @@
 				<div class="tabs_row row">
 					<h2>продажа</h2>
 					<ul class="tabs nav">
-						<li><a class="tab active" href="#" data-tab="tab_1">все</a></li>
-						<li><a class="tab" href="#" data-tab="tab_2">1 - комнатные</a></li>
-						<li><a class="tab" href="#" data-tab="tab_3">2 - комнатные</a></li>
-						<li><a class="tab" href="#" data-tab="tab_4">3 - комнатные</a></li>
-						<li><a class="tab" href="#" data-tab="tab_5">дома</a></li>
+						<li><a class="sell" href="#" data-tab="tab_01">все</a></li>
+						<li><a class="sell" href="#" data-tab="tab_02">1 - комнатные</a></li>
+						<li><a class="sell active" href="#" data-tab="tab_03">2 - комнатные</a></li>
+						<li><a class="sell" href="#" data-tab="tab_04">3 - комнатные</a></li>
+						<li><a class="sell" href="#" data-tab="tab_05">дома</a></li>
 					</ul>
+				</div>
+				<!-- Tab 1 -->
+				<div class="sell_content" data-tab="tab_01">
+					<div class="rent_slider slider_05 swiper-container">
+						<div class="swiper-wrapper">
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell1.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell2.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell3.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell4.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell5.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell6.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell7.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell8.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell9.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+						</div>
+						<div class="rent_scrollbar scroll_05"></div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell1.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell2.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell3.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell4.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell5.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell6.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell7.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell8.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell9.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- tab 1 -->
+
+				<!-- Tab 2 -->
+				<div class="sell_content" data-tab="tab_02">
+					<div class="rent_slider slider_05 swiper-container">
+						<div class="swiper-wrapper">
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell1.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell2.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell3.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell4.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell5.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell6.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell7.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell8.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell9.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+						</div>
+						<div class="rent_scrollbar scroll_05"></div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell1.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell2.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell3.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell4.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell5.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell6.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell7.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell8.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell9.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- tab 2 -->
+
+				<!-- Tab 3 -->
+				<div class="sell_content active" data-tab="tab_03">
+					<div class="rent_slider slider_05 swiper-container">
+						<div class="swiper-wrapper">
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell1.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell2.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell3.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell4.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell5.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell6.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell7.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell8.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell9.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+						</div>
+						<div class="rent_scrollbar scroll_05"></div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell1.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell2.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell3.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell4.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell5.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell6.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell7.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell8.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell9.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- tab 3 -->
+
+				<!-- Tab 4 -->
+				<div class="sell_content" data-tab="tab_04">
+					<div class="rent_slider slider_05 swiper-container">
+						<div class="swiper-wrapper">
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell1.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell2.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell3.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell4.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell5.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell6.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell7.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell8.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell9.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+						</div>
+						<div class="rent_scrollbar scroll_05"></div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell1.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell2.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell3.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell4.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell5.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell6.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell7.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell8.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell9.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- tab 4 -->
+
+				<!-- Tab 5 -->
+				<div class="sell_content" data-tab="tab_05">
+					<div class="rent_slider slider_05 swiper-container">
+						<div class="swiper-wrapper">
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell1.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell2.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell3.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell4.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell5.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell6.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell7.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">PREMIUM</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell8.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+								<div class="card_image__box">
+									<img src="img/sell9.jpg" alt="">
+									<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+								</div>
+								<div class="nav card_nav">
+									<span class="card_price">15000 ₴ / сут.</span>
+									<span class="card_type">standard</span>
+									<span class="card_rooms">2 ком. <br> квартира</span>
+								</div>
+							</div>
+						</div>
+						<div class="rent_scrollbar scroll_05"></div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell1.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell2.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell3.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell4.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell5.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell6.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell7.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">PREMIUM</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell8.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+						<div class="card">
+							<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+							<div class="card_image__box">
+								<img src="img/sell9.jpg" alt="">
+								<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+							</div>
+							<div class="nav card_nav">
+								<span class="card_price">15000 ₴ / сут.</span>
+								<span class="card_type">standard</span>
+								<span class="card_rooms">2 ком. <br> квартира</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- tab 5 -->
+			</div>
+		</section>
+		<!-- Info section -->
+		<section class="info_section" id="info_section">
+			<div class="container">
+				<div class="row mobile_review__row">
+					<div class="swiper-container review_slider">
+						<div class="swiper-wrapper">
+							<div class="mobile_review_slide swiper-slide">
+								<div class="mobile_review_image__box">
+									<img src="img/info_image1.jpg" alt="" class="image_tab">
+								</div>
+								<div class="review_content">
+									<div class="review_info">
+										<p class="review_author">Владимир Токарюк</p>
+										<p class="author_city">г. Киев</p>
+									</div>
+									<p class="review">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+								</div>
+							</div>
+							<div class="mobile_review_slide swiper-slide">
+								<div class="mobile_review_image__box">
+									<img src="img/info_image1.jpg" alt="" class="image_tab">
+								</div>
+								<div class="review_content">
+									<div class="review_info">
+										<p class="review_author">Владимир Токарюк</p>
+										<p class="author_city">г. Киев</p>
+									</div>
+									<p class="review">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+								</div>
+							</div>
+							<div class="mobile_review_slide swiper-slide">
+								<div class="mobile_review_image__box">
+									<img src="img/info_image1.jpg" alt="" class="image_tab">
+								</div>
+								<div class="review_content">
+									<div class="review_info">
+										<p class="review_author">Владимир Токарюк</p>
+										<p class="author_city">г. Киев</p>
+									</div>
+									<p class="review">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+								</div>
+							</div>
+							<div class="mobile_review_slide swiper-slide">
+								<div class="mobile_review_image__box">
+									<img src="img/info_image1.jpg" alt="" class="image_tab">
+								</div>
+								<div class="review_content">
+									<div class="review_info">
+										<p class="review_author">Владимир Токарюк</p>
+										<p class="author_city">г. Киев</p>
+									</div>
+									<p class="review">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+								</div>
+							</div>
+							<div class="mobile_review_slide swiper-slide">
+								<div class="mobile_review_image__box">
+									<img src="img/info_image1.jpg" alt="" class="image_tab">
+								</div>
+								<div class="review_content">
+									<div class="review_info">
+										<p class="review_author">Владимир Токарюк</p>
+										<p class="author_city">г. Киев</p>
+									</div>
+									<p class="review">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+								</div>
+							</div>
+							<div class="mobile_review_slide swiper-slide">
+								<div class="mobile_review_image__box">
+									<img src="img/info_image1.jpg" alt="" class="image_tab">
+								</div>
+								<div class="review_content">
+									<div class="review_info">
+										<p class="review_author">Владимир Токарюк</p>
+										<p class="author_city">г. Киев</p>
+									</div>
+									<p class="review">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+								</div>
+							</div>
+							<div class="mobile_review_slide swiper-slide">
+								<div class="mobile_review_image__box">
+									<img src="img/info_image1.jpg" alt="" class="image_tab">
+								</div>
+								<div class="review_content">
+									<div class="review_info">
+										<p class="review_author">Владимир Токарюк</p>
+										<p class="author_city">г. Киев</p>
+									</div>
+									<p class="review">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+								</div>
+							</div>
+						</div>
+						<div class="rent_scrollbar scroll_05"></div>
+					</div>
+				</div>
+				<div class="row review_row">
+					<div class="images_tab__container">
+						<div class="images_tab__box" data-tab="img_tab1">
+							<img src="img/info_image1.jpg" alt="" class="image_tab">
+						</div>
+						<div class="images_tab__box" data-tab="img_tab2">
+							<img src="img/info_image1.jpg" alt="" class="image_tab">
+						</div>
+						<div class="images_tab__box" data-tab="img_tab3">
+							<img src="img/info_image1.jpg" alt="" class="image_tab">
+						</div>
+						<div class="images_tab__box" data-tab="img_tab4">
+							<img src="img/info_image1.jpg" alt="" class="image_tab">
+						</div>
+						<div class="images_tab__box" data-tab="img_tab5">
+							<img src="img/info_image1.jpg" alt="" class="image_tab">
+						</div>
+						<div class="images_tab__box active" data-tab="img_tab6">
+							<img src="img/info_image1.jpg" alt="" class="image_tab">
+						</div>
+					</div>
+					<div class="images_tab_content__container" data-tab="img_tab1">
+						<p class="review_head">Отзывы</p>
+						<div class="review_content">
+							<div class="review_info">
+								<p class="review_author">Владимир Токарюк</p>
+								<p class="author_city">г. Киев</p>
+							</div>
+							<p class="review">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+						</div>
+					</div>
+					<div class="images_tab_content__container" data-tab="img_tab2">
+						<p class="review_head">Отзывы</p>
+						<div class="review_content">
+							<div class="review_info">
+								<p class="review_author">Владимир Токарюк</p>
+								<p class="author_city">г. Киев</p>
+							</div>
+							<p class="review">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+						</div>
+					</div>
+					<div class="images_tab_content__container" data-tab="img_tab3">
+						<p class="review_head">Отзывы</p>
+						<div class="review_content">
+							<div class="review_info">
+								<p class="review_author">Владимир Токарюк</p>
+								<p class="author_city">г. Киев</p>
+							</div>
+							<p class="review">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+						</div>
+					</div>
+					<div class="images_tab_content__container" data-tab="img_tab4">
+						<p class="review_head">Отзывы</p>
+						<div class="review_content">
+							<div class="review_info">
+								<p class="review_author">Владимир Токарюк</p>
+								<p class="author_city">г. Киев</p>
+							</div>
+							<p class="review">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+						</div>
+					</div>
+					<div class="images_tab_content__container" data-tab="img_tab5">
+						<p class="review_head">Отзывы</p>
+						<div class="review_content">
+							<div class="review_info">
+								<p class="review_author">Владимир Токарюк</p>
+								<p class="author_city">г. Киев</p>
+							</div>
+							<p class="review">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+						</div>
+					</div>
+					<div class="images_tab_content__container active" data-tab="img_tab6">
+						<p class="review_head">Отзывы</p>
+						<div class="review_content">
+							<div class="review_info">
+								<p class="review_author">Владимир Токарюк</p>
+								<p class="author_city">г. Киев</p>
+							</div>
+							<p class="review">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
+		<!-- end of info section -->
+
+		<!-- Text section  -->
+		<section class="text_section" id="text_section">
+			<div class="container">
+				<div class="row text_row">
+					<div class="col">
+						<h2>Условия Проживания в Апартаментах</h2>
+
+						<p>Апартаменты предназначены исключительно для проживания в них на указанный вами период .</p>
+
+						<p>В случае если аренда апартаментов необходима для деловой встречи, мероприятия , съемки ,проведения тренинга или же пребывания животных в апартаментах Вы обязаны сообщить и согласовать это с нашим менеджером при бронировании. В случае если вы не предупредили о целях аренды апартаментов и арендовали их для вышеперечисленного Вы будете выселены из апартаментов без возмещения денежных средств и компенсаций .</p>
+
+						<p>Если Вы решили воспользоваться услугами трансферта из аэропорта или ж/д вокзала об этом необходимо сообщить заранее указав точное время прибытия и номер рейса ; поезда ; вагона , Вас встретит наш водитель с табличкой « Almateya » либо «Фамилией и Именем » гостя на выходе из терминала аэропорта или возле вагона на вокзале. В обязанность водителя не входят услуги носильщика, потому если Вы об этом просите не забудьте отблагодарить его.
+							Водитель доставит Вас на квартиру или в наш офис, где Вы сможете оплатить весь срок аренды, и будут заполнены необходимые документы, выданы ключи. Если вы хотите заказать трансферт из  аэропорта или ж/д. вокзала вы должны оплатить его      
+						предварительно.</p>
+					</div>
+					<div class="col">
+						<p>Если Вы не заказываете трансферт, мы ждем Вашего звонка из аэропорта, вокзала, минимум за 40 минут до вашего приезда в офис либо апартаменты – в зависимости от вашего время прибытия .</p>
+
+						<p>В день вашего отъезда, представитель нашей компании придет в квартиру, чтобы забрать ключ и проверить исправность техники и мебели. В стоимость квартиры включены: постельные и кухонные принадлежности, полотенца; электричество, горячая и холодная вода, городская телефонная связь, интернет , телевидение , круглосуточная поддержка нашего менеджера , моющие , чистящие средства , и другие средства гигиены . Уборка квартиры с заменой постельного белья и полотенец один раз в четыре дня в удобное для вас время.</p>
+
+						<p>Вы несете ответственность за ключи и апартаменты , пока они находятся в вашем распоряжении и возвращаете их при выезде нашему сотруднику. Если вы потеряли ключи, то вы должны компенсировать затраты на покупку и установку аналогичного нового замка.</p>
+
+						<p>Вы должны вести себя в соответствии с моральными и этическими нормами. Громко включенная музыка, крики, или ваши хулиганские</p>
+					</div>
+					<div class="col">
+						<p>действия могут повлечь жалобы соседей и вы будете   
+							незамедлительно выселены из арендуемой квартиры без 
+							компенсации Вашей предоплаты за весь период проживания и без 
+						возврата депозита (100 долларов США).</p>
+
+						<p>В случае порчи, поломки имущества или оборудования квартиры, Вы обязаны компенсировать все затраты, связанные с ремонтом и восстановлением имущества и оборудования в первоначальное состояние.</p>
+					</div>
+					<div class="col">
+						<h3>ОПЛАТА ПЛАТЁЖНЫМИ КАРТАМИ </h3>
+						<h2>VISA / MasterCard</h2>
+						<p>Осуществить предоплату брони  т.е. за одни сутки проживания или полную оплату всего срока проживания Вы можете платёжными картами VISA и MasterCard. Для этого нужно заполнить форму заказа на странице сайта и отослать её. На Ваш E-Mail придёт ссылка на процесинговый центр "Platon", где Вы должны указать необходимые реквизиты Вашей карты. Если транзакция прошла успешно, Вы увидите сообщение об этом. Если транзакция не прошла, Вы    увидите сообщение об ошибке!</p>
+					</div>
+					<div class="col">
+						<h2>Время заезда - 14.00  /  Время выезда - 12.00</h2>
+						<p>Независимо от того в какое время Вы заехали сутки проживания начинаются с 14-00 и заканчиваются в 12.00
+
+						Bремя с 12.00 до 17.00 - половина стоимости суток проживания</p>
+
+						<p>Если выезд после 17.00 - считаются полные сутки проживания</p>
+
+						<p>Если Вы ставите квартиру на бронь, то нужно внести предоплату (суточная стоимость квартиры): банковский перевод на счет (только в гривнах) или простой перевод через вестерн юнион</p>
+
+						<p>Если же Вы предоплату не вносите, то гарантировать выбранную Вами квартиру, к сожалению, мы не можем,Но постараемся поселить в другую такого же уровня</p>
+					</div>
+					<div class="col">
+						<h2>Поселяющийся в квартиру обязуется:</h2>
+						<p>Cодержать квартиру в чистоте и порядке, предусмотренном санитарными нормами.</p>
+						<p>Не сдавать квартиру третьим лицам.</p>
+						<p>Не нарушать тишину и покой жителей соседних квартир.</p>
+						<p>При выселении вернуть ключи, сдать помещение и имущество в полной сохранности и исправном состоянии.</p>
+						<p>В случае обнаружения неполадок, сообщить информацию менеджеру немедленно.</p>
+						<p>В случае поломки или неисправности, происшедшей по вине постояльца, возместить ущерб.</p>
+						<p>Объект размещения для некурящих, штраф за курение  - 50 долларов США (или по курсу в национальной валюте).</p>
+						<p>Вечеринки и мероприятия в объекте размещения запрещены.</p>
+						<p>После 23-00 и до 10-00 запрещается громко слушать музыку и кричать в объекте размещения.</p>
+						<p>Запрещено проживание с  питомцами.</p>
+
+						<b>В случае несоблюдения правил проживания гость может быть выселен без возмещения оплаты за проживание и без возврата страхового депозита</b>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of text section -->
+
+		<!-- How we Work section-->
+		<section class="how_we_work_section" id="how_we_work_section">
+			<div class="container">
+				<div class="row">
+					<h2>Как мы работаем</h2>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="how_box">
+							<div class="how__icon_box">
+								<img src="img/icon1.svg" alt="">
+							</div>
+							<h3>Заказ</h3>
+							<p>Закажите звонок или оставте заявку</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="how_box">
+							<div class="how__icon_box">
+								<img src="img/icon2.svg" alt="">
+							</div>
+							<h3>Консультация</h3>
+							<p>Наш специалист свяжется с Вами</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="how_box">
+							<div class="how__icon_box">
+								<img src="img/icon3.svg" alt="">
+							</div>
+							<h3>Осмотр</h3>
+							<p>Осмотр подходящей недвижимости</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="how_box">
+							<div class="how__icon_box">
+								<img src="img/icon4.svg" alt="">
+							</div>
+							<h3>Договор</h3>
+							<p>Подготовка документов</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="how_box">
+							<div class="how__icon_box">
+								<img src="img/icon5.svg" alt="">
+							</div>
+							<h3>Результат</h3>
+							<p>Получение ожидаемого результата</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of section -->
+
+
+		<!-- About us section  -->
+		<section class="about_us__section">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<img src="img/about.jpg" alt="" class="about_us__image">
+					</div>
+					<div class="col">
+						<h2>О нас</h2>
+						<p>Как агентство мы начали работать только в 2020 году, но в нашем составе работают риелторы с многолетним опытом. Слаженная командная работа всегда даёт преимущество и мы этим пользуемся. <br>
+							В работе опираемся на современные инструменты рекламы и взаимодействия с клиентами. Активно пользуемся мессенджерами и социальными сетями Facebook + Instagram. <br><br>
+
+							Есть хороший офис в удобном месте Центрально-Городского района нашего города. <br><br>
+
+						Обращайтесь, и мы с радостью применим все наши навыки чтобы ваша Аренда или Продажа принесли максимальную прибыль.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of about us -->
+
+		<!-- Team section -->
+		<section class="team_section" id="team_section">
+			<div class="container">
+				<div class="row">
+					<h2>наша команда</h2>
+				</div>
+				<div class="row mobile_team_row">
+					<div class="swiper-container team_slider">
+						<div class="swiper-wrapper">
+							<div class="col swiper-slide">
+								<div class="team_box">
+									<img src="img/team1.jpg" alt="">
+									<h3>Ирина</h3>
+									<p>Менеджер</p>
+								</div>
+							</div>
+							<div class="col swiper-slide">
+								<div class="team_box">
+									<img src="img/team2.jpg" alt="">
+									<h3>Марк</h3>
+									<p>Менеджер</p>
+								</div>
+							</div>
+							<div class="col swiper-slide">
+								<div class="team_box">
+									<img src="img/team3.jpg" alt="">
+									<h3>Алекс</h3>
+									<p>Менеджер</p>
+								</div>
+							</div>
+							<div class="col swiper-slide">
+								<div class="team_box">
+									<img src="img/team4.jpg" alt="">
+									<h3>Юлия</h3>
+									<p>Менеджер</p>
+								</div>
+							</div>
+							<div class="col swiper-slide">
+								<div class="team_box">
+									<img src="img/team5.jpg" alt="">
+									<h3>Димон</h3>
+									<p>Менеджер</p>
+								</div>
+							</div>
+						</div>
+						<div class="rent_scrollbar scroll_01"></div>
+					</div>
+				</div>
+				<div class="row team_row">
+					<div class="col">
+						<div class="team_box">
+							<img src="img/team1.jpg" alt="">
+							<h3>Ирина</h3>
+							<p>Менеджер</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="team_box">
+							<img src="img/team2.jpg" alt="">
+							<h3>Марк</h3>
+							<p>Менеджер</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="team_box">
+							<img src="img/team3.jpg" alt="">
+							<h3>Алекс</h3>
+							<p>Менеджер</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="team_box">
+							<img src="img/team4.jpg" alt="">
+							<h3>Юлия</h3>
+							<p>Менеджер</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="team_box">
+							<img src="img/team5.jpg" alt="">
+							<h3>Димон</h3>
+							<p>Менеджер</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of team section -->
+
+		<!-- Form section -->
+		<section class="form_section" id="form_section">
+			<div class="container">
+				<div class="row">
+					<h2>Обратная связь</h2>
+					<p>Мы с Вами свяжемся в течении 5 минут</p>
+				</div>
+				<div class="row">
+					<form class="form" action="" method="POST">
+						<input type="text" placeholder="Ваше имя">
+						<input type="phone" placeholder="Ваш номер телефона">
+						<input type="submit" value="Отправить">
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- end of form section -->
 	</main>
+
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<a href="#" class="footer_logo">
+						<img src="img/footer_logo.svg" alt="">
+					</a>
+				</div>
+				<div class="col">
+					<p class="contacts">НАШИ КОНТАКТЫ:</p>
+					<p class="contacts_data">Кривой Рог, пр. Мира, 2А</p>
+				</div>
+				<div class="col">
+					<a href="tel:+380985674576" class="footer_phone">+38 098 567 45 76</a>
+					<a href="tel:+380665684575" class="footer_phone">+38 066 568 45 75</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+	<div class="hidden">
+		<div id="item_modal">
+			<div class="modal_container">
+				<div class="modal_header">
+					<div class="col item_info">
+						<p class="item__data">1 ком. кв. <span>пр-т Мира, 35 (95 квартал, маг. "Антошка")</span></p>
+						<p class="item_type">PREMIUM <span>от 500 ₴ / сутки</span></p>
+					</div>
+					<div class="col item_action">
+						<a href="#" class="item_share">
+							<img src="img/share.svg" alt="">
+						</a>
+						<a href="#" class="modal_close">
+							<img src="img/close.svg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="modal_slider">
+					<div class="modal_slider__top">
+						<div class="swiper-container gallery-top">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide modal_slider__slide">
+									<img src="img/sell1.jpg" alt="">
+								</div>
+								<div class="swiper-slide modal_slider__slide">
+									<img src="img/sell2.jpg" alt="">
+								</div>
+								<div class="swiper-slide modal_slider__slide">
+									<img src="img/sell3.jpg" alt="">
+								</div>
+								<div class="swiper-slide modal_slider__slide">
+									<img src="img/sell4.jpg" alt="">
+								</div>
+								<div class="swiper-slide modal_slider__slide">
+									<img src="img/sell5.jpg" alt="">
+								</div>
+								<div class="swiper-slide modal_slider__slide">
+									<img src="img/sell6.jpg" alt="">
+								</div>
+								<div class="swiper-slide modal_slider__slide">
+									<img src="img/sell7.jpg" alt="">
+								</div>
+								<div class="swiper-slide modal_slider__slide">
+									<img src="img/sell8.jpg" alt="">
+								</div>
+								<div class="swiper-slide modal_slider__slide">
+									<img src="img/sell9.jpg" alt="">
+								</div>
+								<div class="swiper-slide modal_slider__slide">
+									<img src="img/sell1.jpg" alt="">
+								</div>
+								<div class="swiper-slide modal_slider__slide">
+									<img src="img/sell8.jpg" alt="">
+								</div>
+								<div class="swiper-slide modal_slider__slide">
+									<img src="img/sell9.jpg" alt="">
+								</div>
+								<div class="swiper-slide modal_slider__slide">
+									<img src="img/sell1.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal_slider__bottom">
+						<div class="swiper-container gallery-thumbs">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide modal_slider__slide_thumb">
+									<div class="hover_effect">
+										<img src="img/icons/icon9.svg" alt="" class="hover">
+										<img src="img/sell1.jpg" alt="">
+									</div>
+								</div>
+								<div class="swiper-slide modal_slider__slide_thumb">
+									<div class="hover_effect">
+										<img src="img/icons/icon9.svg" alt="" class="hover">
+										<img src="img/sell2.jpg" alt="">
+									</div>
+								</div>
+								<div class="swiper-slide modal_slider__slide_thumb">
+									<div class="hover_effect">
+										<img src="img/icons/icon9.svg" alt="" class="hover">
+										<img src="img/sell3.jpg" alt="">
+									</div>
+								</div>
+								<div class="swiper-slide modal_slider__slide_thumb">
+									<div class="hover_effect">
+										<img src="img/icons/icon9.svg" alt="" class="hover">
+										<img src="img/sell4.jpg" alt="">
+									</div>
+								</div>
+								<div class="swiper-slide modal_slider__slide_thumb">
+									<div class="hover_effect">
+										<img src="img/icons/icon9.svg" alt="" class="hover">
+										<img src="img/sell5.jpg" alt="">
+									</div>
+								</div>
+								<div class="swiper-slide modal_slider__slide_thumb">
+									<div class="hover_effect">
+										<img src="img/icons/icon9.svg" alt="" class="hover">
+										<img src="img/sell6.jpg" alt="">
+									</div>
+								</div>
+								<div class="swiper-slide modal_slider__slide_thumb">
+									<div class="hover_effect">
+										<img src="img/icons/icon9.svg" alt="" class="hover">
+										<img src="img/sell7.jpg" alt="">
+									</div>
+								</div>
+								<div class="swiper-slide modal_slider__slide_thumb">
+									<div class="hover_effect">
+										<img src="img/icons/icon9.svg" alt="" class="hover">
+										<img src="img/sell8.jpg" alt="">
+									</div>
+								</div>
+								<div class="swiper-slide modal_slider__slide_thumb">
+									<div class="hover_effect">
+										<img src="img/icons/icon9.svg" alt="" class="hover">
+										<img src="img/sell9.jpg" alt="">
+									</div>
+								</div>
+								<div class="swiper-slide modal_slider__slide_thumb">
+									<div class="hover_effect">
+										<img src="img/icons/icon9.svg" alt="" class="hover">
+										<img src="img/sell1.jpg" alt="">
+									</div>
+								</div>
+								<div class="swiper-slide modal_slider__slide_thumb">
+									<div class="hover_effect">
+										<img src="img/icons/icon9.svg" alt="" class="hover">
+										<img src="img/sell8.jpg" alt="">
+									</div>
+								</div>
+								<div class="swiper-slide modal_slider__slide_thumb">
+									<div class="hover_effect">
+										<img src="img/icons/icon9.svg" alt="" class="hover">
+										<img src="img/sell9.jpg" alt="">
+									</div>
+								</div>
+								<div class="swiper-slide modal_slider__slide_thumb">
+									<div class="hover_effect">
+										<img src="img/icons/icon9.svg" alt="" class="hover">
+										<img src="img/sell1.jpg" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="thumb_scrollbar"></div>
+						</div>
+					</div>
+				</div>
+				<div class="modal_content">
+					<div class="row">
+						<div class="col">
+							<h4>Удобства</h4>
+						</div>
+						<div class="col">
+							<ul class="nav items_list">
+								<li><img src="img/icons/icon7.svg" alt=""></li>
+								<li><img src="img/icons/icon2.svg" alt=""></li>
+								<li><img src="img/icons/icon8.svg" alt=""></li>
+								<li><img src="img/icons/icon5.svg" alt=""></li>
+								<li><img src="img/icons/icon6.svg" alt=""></li>
+								<li><img src="img/icons/icon4.svg" alt=""></li>
+								<li><img src="img/icons/icon1.svg" alt=""></li>
+								<li><img src="img/icons/icon3.svg" alt=""></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<h4>premium</h4>
+							<p>Квартира со всеми удобствами в центре Кривого Рога на 95-м квартале (площадь Горького, проспект Гагарина, проспект Мира, проспект Металлургов). </p>
+						</div>
+						<div class="col">
+							<h4>В пешей доступности:</h4>
+							<p>Супермаркеты, кафе, рестораны, стоянка, аптека, McDonalds, парки, скверы, горисполком, рынок, скоростной трамвай, автовокзал (2км), Арселор Миттал (5км), кинотеатр, развлекательный центр "Юнион".</p>
+						</div>
+					</div>
+					<div class="row last_row">
+						<div class="col price_col">
+							<h4>Цены:</h4>
+							<p>3 часа - 400 ₴ <br>сутки от 600 до 800 ₴</p>
+							<p class="text">*  Цена зависит от времени заселения, даты и срока проживания.</p>
+						</div>
+						<div class="col">
+							<ul class="modal_content__list">
+								<li>Запрещено курить В квартире.</li>
+								<li>Запрещено устраивать вечеринки.</li>
+								<li>Командировочным с собой пакет документов.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="row map_row">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d81236.10496680276!2d30.419593443455007!3d50.485263506324415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0L_RgC3RgiDQnNC40YDQsCwgMzUgKDk1INC60LLQsNGA0YLQsNC7LCDQvNCw0LMuICLQkNC90YLQvtGI0LrQsCIp!5e0!3m2!1sru!2sua!4v1677494879851!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+					<div class="row form_row">
+						<div class="col">
+							<h2>Забранировать квартиру</h2>
+							<p>Мы с Вами свяжемся в течении 5 минут </p>
+						</div>
+						<form class="form" action="" method="POST">
+							<input type="text" placeholder="Ваше имя">
+							<input type="phone" placeholder="Ваш номер телефона">
+							<input type="submit" value="Отправить">
+						</form>
+					</div>
+					<div class="row recomend_row">
+						<h2>Похожее  предложение</h2>
+						<div class="recomend_slider">
+							<div class="recomend swiper-container">
+								<div class="swiper-wrapper">
+									<div class="card swiper-slide">
+										<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+										<div class="card_image__box">
+											<img src="img/card1.jpg" alt="">
+											<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+										</div>
+										<div class="nav card_nav">
+											<span class="card_price">15000 ₴ / сут.</span>
+											<span class="card_type">PREMIUM</span>
+											<span class="card_rooms">2 ком. <br> квартира</span>
+										</div>
+									</div>
+									<div class="card swiper-slide">
+										<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+										<div class="card_image__box">
+											<img src="img/card2.jpg" alt="">
+											<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+										</div>
+										<div class="nav card_nav">
+											<span class="card_price">15000 ₴ / сут.</span>
+											<span class="card_type">standard</span>
+											<span class="card_rooms">2 ком. <br> квартира</span>
+										</div>
+									</div>
+									<div class="card swiper-slide">
+										<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+										<div class="card_image__box">
+											<img src="img/card3.jpg" alt="">
+											<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+										</div>
+										<div class="nav card_nav">
+											<span class="card_price">15000 ₴ / сут.</span>
+											<span class="card_type">standard</span>
+											<span class="card_rooms">2 ком. <br> квартира</span>
+										</div>
+									</div>
+									<div class="card swiper-slide">
+										<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+										<div class="card_image__box">
+											<img src="img/card1.jpg" alt="">
+											<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+										</div>
+										<div class="nav card_nav">
+											<span class="card_price">15000 ₴ / сут.</span>
+											<span class="card_type">PREMIUM</span>
+											<span class="card_rooms">2 ком. <br> квартира</span>
+										</div>
+									</div>
+									<div class="card swiper-slide">
+										<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+										<div class="card_image__box">
+											<img src="img/card2.jpg" alt="">
+											<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+										</div>
+										<div class="nav card_nav">
+											<span class="card_price">15000 ₴ / сут.</span>
+											<span class="card_type">standard</span>
+											<span class="card_rooms">2 ком. <br> квартира</span>
+										</div>
+									</div>
+									<div class="card swiper-slide">
+										<span class="card_adress">р-н Саксаганский / пр-т металлургов, 34</span>
+										<div class="card_image__box">
+											<img src="img/card3.jpg" alt="">
+											<a href="#" data-fancybox data-src="#item_modal">подробнее</a>
+										</div>
+										<div class="nav card_nav">
+											<span class="card_price">15000 ₴ / сут.</span>
+											<span class="card_type">standard</span>
+											<span class="card_rooms">2 ком. <br> квартира</span>
+										</div>
+									</div>
+								</div>
+								<div class="recommend_scrollbar"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
 
 
 
 
 
 	<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
