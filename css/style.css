@@ -6,6 +6,7 @@
 	--grey-light: rgba(0, 0, 0, 0.05);
 	--yellow-light: rgba(255, 227, 29, 0.4);
 }
+html{scroll-behavior:smooth}
 
 * {
 	margin: 0;
@@ -30,6 +31,13 @@ a {
 *:hover {
 	cursor: none;
 }	
+.thanks {
+	color: #0fd30f;
+	display: none;
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+}
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -204,7 +212,6 @@ a {
 
 .section_01 {
 	padding-top: 50px;
-	padding-bottom: 150px;
 	display: flex;
 }
 .section_01 .container {
@@ -305,6 +312,17 @@ h1 {
 }
 .card_image__box img {
 	width: 100%;
+
+}
+.section_01 .card_image__box img{
+		min-height: 412px;
+	height: 100%;
+	object-fit: cover;
+}
+.tabs_content .card_image__box img {
+	max-width: 351px;
+	min-height: 272px;
+	object-fit: cover;
 }
 .card .card_rooms {
 	font-weight: 400;
@@ -1097,7 +1115,7 @@ h2 {
 	width: 100%;
 	overflow-x: hidden;
 }
-#item_modal .fancybox-button.fancybox-close-small {
+#item_modal .fancybox-button.fancybox-close-small,#item_modal_02 .fancybox-button.fancybox-close-small, #item_modal_03 .fancybox-button.fancybox-close-small {
 	display: none;
 }
 .recomend_row h2 {
@@ -1199,6 +1217,9 @@ h2 {
 	}
 }
 @media (max-width: 999px) {
+	.team_slider {
+		overflow-x: hidden;
+	}
 	.phones_box .nav li a {
 		font-size: 14px;
 		margin-right: 15px;
@@ -1299,6 +1320,7 @@ h2 {
 	}
 	.rent_slider {
 		display: block;
+		overflow-x: hidden;
 	}
 	.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
 		z-index: 1;
@@ -1505,6 +1527,7 @@ h2 {
 	}
 	.mobile_review__row {
 		display: flex;
+		overflow-x: hidden;
 	}
 	.review_row {
 		display: none;

@@ -7,6 +7,7 @@ $(document).ready(function(){
 	var textSection = document.querySelectorAll('.text_section');
 	var call = document.querySelectorAll('.take_call');
 	var imagesReview = document.querySelectorAll('.image_tab');
+	var formCursor = document.querySelectorAll('.form');
 	var wd = $(window).width();
 	var half = (wd / 2);
 	document.addEventListener('mousemove', function(e){
@@ -24,7 +25,16 @@ $(document).ready(function(){
 	document.addEventListener('mouseup', function(){
 		cursor.classList.remove('click')
 	});
-
+	formCursor.forEach(item => {
+		item.addEventListener('mouseover', (e) => {
+			$('.cursor').hide();
+			$(':root').css('cursor','auto');
+			$('*:hover').css('cursor','auto');
+		});
+		item.addEventListener('mouseleave', (e) => {
+			$('.cursor').show();
+		});
+	});
 	firstSection.forEach(item => {
 		item.addEventListener('mouseover', (e) => {
 			if (half < e.clientX) {
@@ -100,8 +110,9 @@ $(document).ready(function(){
 	$('.section_01 .col:first-child').css({
 		"padding-left": position.left,
 	})
-	
-	
+
+
+
 
 
 	// first container scroll
@@ -116,12 +127,6 @@ $(document).ready(function(){
 		slider.classList.add('active');
 		startX = e.pageX - slider.offsetLeft;
 		scrollLeft = slider.scrollLeft;
-	});
-	slider.addEventListener('wheel', (e) => {
-		e.preventDefault();
-		slider.scrollBy({
-			left: e.deltaY < 0 ? -30 : 30,
-		});
 	});
 	slider.addEventListener('mouseleave', () => {
 		isDown = false;
@@ -183,6 +188,46 @@ $(document).ready(function(){
 		mousewheel: false,
 		thumbs: {
 			swiper: galleryThumbs
+		}
+	});
+	var galleryThumbs2 = new Swiper('.gallery-thumbs_02', {
+		spaceBetween: 10,
+		slidesPerView: "auto",
+		freeMode: true,
+		watchSlidesVisibility: true,
+		watchSlidesProgress: true,
+		scrollbar: {
+			el: ".thumb_scrollbar",
+			draggable: true,
+			dragSize: 350
+		},
+	});
+	var galleryTop2 = new Swiper('.gallery-top_02', {
+		effect: 'fade',
+		centeredSlides: true,
+		mousewheel: false,
+		thumbs: {
+			swiper: galleryThumbs2
+		}
+	});
+	var galleryThumbs3 = new Swiper('.gallery-thumbs_03', {
+		spaceBetween: 10,
+		slidesPerView: "auto",
+		freeMode: true,
+		watchSlidesVisibility: true,
+		watchSlidesProgress: true,
+		scrollbar: {
+			el: ".thumb_scrollbar",
+			draggable: true,
+			dragSize: 350
+		},
+	});
+	var galleryTop3 = new Swiper('.gallery-top_03', {
+		effect: 'fade',
+		centeredSlides: true,
+		mousewheel: false,
+		thumbs: {
+			swiper: galleryThumbs3
 		}
 	});
 	var recomend = new Swiper(".recomend", {
@@ -344,17 +389,59 @@ $(document).ready(function(){
 		}
 	});
 
-	// $('.images_tab__box').mouseenter(function(e){
-	// 	if(!$(this).is('.active')) {
-	// 		$('.images_tab__box').removeClass('active');
-	// 		$(this).addClass('active');
-	// 	}
-	// })
-
 	// mobile menu 
 	$('.burger').click(function (e) {
 		e.preventDefault();
 		$(this).toggleClass('active');
 		$('.main_menu').slideToggle();
 	});
+	submitHandler();
 });
+
+
+function submitHandler() {
+	$('input[type="submit"]').click(function (e) {
+		e.preventDefault();
+		console.log('asdasd');
+		var formData = {
+			name: $("#name").val(),
+			phone: $("#phone").val(),
+			name_modal: $("#item_modal .name").val() || $("#item_modal_02 .name").val() || $("#item_modal_03 .name").val() ,
+			phone_modal: $("#item_modal .phone").val() || $("#item_modal_02 .phone").val() || $("#item_modal_03 .phone").val(),
+		};
+		console.log(formData);
+		$.ajax({
+			type: "POST",
+			url: "/send.php",
+			data: formData,
+			dataType: "json",
+			encode: true,
+		}).done(function (data) {
+			console.log(data);
+
+		});
+		$('.thanks').show();
+		setTimeout(function() { 
+       location.reload();
+    }, 2000);
+	});
+	// $(".form").submit(function (event) {
+  //   var formData = {
+  //     name: $("#name").val(),
+  //     phone: $("#phone").val(),
+  //   };
+
+  //   $.ajax({
+  //     type: "POST",
+  //     url: "/send.php",
+  //     data: formData,
+  //     dataType: "json",
+  //     encode: true,
+  //   }).done(function (data) {
+  //     console.log(data);
+  //   });
+
+  //   event.preventDefault();
+  // });
+	
+}
