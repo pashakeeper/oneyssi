@@ -422,26 +422,9 @@ function submitHandler() {
 		});
 		$('.thanks').show();
 		setTimeout(function() { 
-       location.reload();
-    }, 2000);
+			location.reload();
+		}, 2000);
+		
 	});
-	// $(".form").submit(function (event) {
-  //   var formData = {
-  //     name: $("#name").val(),
-  //     phone: $("#phone").val(),
-  //   };
-
-  //   $.ajax({
-  //     type: "POST",
-  //     url: "/send.php",
-  //     data: formData,
-  //     dataType: "json",
-  //     encode: true,
-  //   }).done(function (data) {
-  //     console.log(data);
-  //   });
-
-  //   event.preventDefault();
-  // });
 	
 }
